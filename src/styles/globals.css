@@ -4,5 +4,5 @@
 
 @layer base {
     body{
-        @apply font-body bg-[#f0f0f0] !scrollbar-thumb-gray-300 !scrollbar-track-transparent !scrollbar-thin }
+        @apply font-body bg-[#f0f0f0] scrollbar-hide !scrollbar-thumb-gray-300 !scrollbar-track-transparent !scrollbar-thin }
 }
