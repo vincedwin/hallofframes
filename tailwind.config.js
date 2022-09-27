@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       fontFamily:{
         body:["Mulish", "sans-serif"]
+      },
+      gridTemplateColumns: {
+        // added new 4 column grid as new4
+        'grid5': 'repeat(5, min(420px))',
+        'list20': 'repeat(20, 1fr)'
       }
     },
   },
